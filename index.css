@@ -1,0 +1,183 @@
+ html {
+     background-color: white;
+     border: 15px  #593C4C solid;
+ }
+
+ nav {
+     background-color:  #593C4C;
+    
+
+     display: flex;
+     flex-direction: row;
+ }
+
+
+
+   footer {
+          background-color: #593C4C; 
+
+          height: 100px;
+   }
+
+
+   h1{
+color:#593C4C;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+   }
+
+    p ,h2{
+         color: white;
+    }
+
+
+    header {
+         background-color: #CB9DB5; 
+    }
+
+ 
+
+
+ul {
+    list-style-type:none ;
+      margin-left: 790px;
+      
+   
+}
+
+ li {
+     float: left;
+     border: black 2px solid;
+        position: relative;
+    padding-left: 11px;
+       padding-left: 11px;
+    
+    
+ }
+
+ li a{
+     text-decoration: none;
+     padding-left: 15px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-right: 15px;
+     display: block;
+     color: white;
+     font-size: 17px;
+     
+   
+     
+ }
+ li a:hover {
+  background-color:#CB9DB5;
+  color: #593C4C;
+}
+
+ footer ul {
+    
+    display: block;
+ 
+    margin-left: 400px;
+
+ }
+
+  footer ul >li {
+     margin-top: 10px;
+    
+  }
+
+   footer p {
+
+  padding-top: 70px;
+  padding-left: 500px;
+   }
+
+   #identy{
+       margin-left:150px ;
+       background-color: #CB9DB5;
+       width: 1000px;
+   }
+
+   #identy p::first-letter {
+       color: #593C4C;
+       font-size: 67px;
+      
+   }
+
+   
+   #identy p { 
+       font-size: 24px;
+        text-align: center;
+   }
+#background {
+    width: 800px;
+    height: 400px;
+   opacity: 0.8;
+
+display: block;  
+margin-left: auto;  
+margin-right: auto;   
+}
+   
+
+#work{
+    text-align: center;
+    background-color: #CB9DB5 ;
+    height: 250px;
+    width: 430px;
+    margin:  0  auto;
+
+    font: 20px red small-caption ;
+   
+}
+#work p {
+    color:  #593C4C;
+    font-weight: bolder;
+    font-style: italic;
+  
+     text-align: justify;
+     font-family: 'Josefin Sans', sans-serif;
+}
+
+#work p::first-line {
+    color: #000;
+}
+
+#work :first-child  ,h1{
+    color: #593C4C;
+    font-family: 'Texturina', serif;
+   text-transform: capitalize;
+}
+
+
+header{
+    height: 150px;
+}
+header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+header h3 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+   color: #593C4C;
+ font-family: 'Lobster', cursive;;
+   text-transform: capitalize;
+
+}
+
+
+.center {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+.partent {
+     position: relative;
+}
