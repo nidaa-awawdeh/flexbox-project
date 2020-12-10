@@ -1,23 +1,198 @@
+  html {
+     background-color: white;
+     border: 15px  #593C4C solid;
+ }
  #box-container {
     /* display: flex; */
     height: 1000px;
+    
   }
 
   #box-1 {
-    background-color: rgb(216, 162, 162);
+    background-color: rgb(241, 197, 238);;
     height: 600px;
     flex-grow:1;
+ 
+   
 
   }
 
   #box-2 {
-    background-color: rgb(206, 214, 127);
+    background-color: rgb(241, 197, 238);
     height: 400px;
     flex-grow:2 ;
 
   }
+ footer {
+          background-color: #593C4C; 
+
+          height: 100px;
+   }
+
+    nav {
+     background-color:  #593C4C;
+    
+
+     display: flex;
+     flex-direction: row;
+ }
+   h1{
+color:#593C4C;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+   }
+
+    p ,h2{
+         color: white;
+    }
 
 
-  footer {
-      margin-top: 50px;
+    header {
+         background-color: #CB9DB5; 
+    }
+
+ 
+
+
+ ul {
+    list-style-type:none ;
+      margin-left: 790px;
+     padding-right: 30px;
+   
+} 
+
+ li {
+     
+      display: inline;
+      
+     float: left;
+     border: #CB9DB5 2px solid;
+        position: relative;
+    padding-left: 3px;
+      margin-right: 20px;
+    
+    
+ }
+
+ li a{
+     text-decoration: none;
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-right: 10px;
+     display: block;
+     color: white;
+     font-size: 17px;
+     
+     
+   
+     
+ }
+ li a:hover {
+  background-color:#CB9DB5;
+
+   border: #593C4C 2px solid;
+}
+
+footer ul {
+    
+    display: block;
+ 
+    margin-left: 400px;
+
+ }
+
+  footer ul >li {
+     margin-top: 10px;
+    
   }
+
+   footer p {
+
+  padding-top: 70px;
+  padding-left: 500px;
+   }
+
+
+   .image {
+   
+     margin: 30px  90px;
+     background-color: purple;
+     padding: 50px;
+     height: 230px;
+   }
+
+   .image #workteam {
+     margin-left: 100px;
+    
+     border-radius: 50%;
+     padding-left: 10px;
+     padding-right: 20px;
+     padding-top: 20px;
+   }
+
+ol >li {
+     margin-left:  200px;
+     margin-top: 30px;
+     background-color: white;
+     width: 120px;
+     height: 30px;
+    
+   }
+  h2{
+    text-transform: capitalize;
+    color: #593C4C;
+  text-align: center;
+  line-height: 3px;
+  margin-top: 30px;
+  }
+
+.works {
+  background-color: violet;
+  height: 400px;
+}
+
+.works #workteams {
+  padding: 30px;
+  margin-left: 55px;
+  margin-top: 20px;
+}
+
+ .works ul   {
+ 
+
+     margin-left: 250px;
+     margin-top: 70px;
+ 
+    padding-right: 100px;
+   
+  
+ }
+  .works ul> li {
+    width: 70px;
+    height: 30px;
+
+border: 2px black solid;
+background-color:  #593C4C;
+color: white;
+margin: 18px 120px 8px 15px ;
+
+  }
+
+  .works ul {
+      padding-left: 100px;
+  }
+
+
+
+    #box-1 p{
+     text-transform: capitalize;
+     text-align: center;
+     color: black;
+  word-break: break-all;
+     
+    }
+
+        #box-1 p::first-letter{
+          font-size: 48px;
+        }
