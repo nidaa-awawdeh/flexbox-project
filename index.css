@@ -190,3 +190,43 @@ header h3 {
 .partent {
      position: relative;
 }
+
+
+@media(max-width:767px){ 
+    /* mobile and tablet rules */
+ p{
+     color:red ;
+ }
+   li a {
+           text-decoration: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display: block;
+    color: rgb(146, 15, 15);
+    font-size: 17px;
+    }
+
+     header {
+         width: 200px;
+     }
+}
+@media(min-width:768px){
+    /* small screen rules */
+    p{
+color: white;
+    }
+     
+}
+
+
+
+@media(min-width:992px){
+    /* Medium screen rules */
+ 
+}
+@media(min-width:1200px){
+/* Large screen  rules */
+
+}
